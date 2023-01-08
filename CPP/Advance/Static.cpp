@@ -22,7 +22,7 @@ Biến static trong class:
       public:
           A()
           {
-
+              count++;
           }
   };
 
@@ -32,7 +32,6 @@ Biến static trong class:
   {
      A obj1;
      cout << obj1.count << endl;  // 0
-     obj1.count++;
      A obj2;
      cout << obj2.count;          // 1
   }
