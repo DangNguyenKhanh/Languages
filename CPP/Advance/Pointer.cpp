@@ -7,9 +7,14 @@ Khởi tạo con trỏ mặc định:
   int* p = &a;
  
 
-Khởi tạo con trỏ là NULL;
+Khởi tạo con trỏ là NULL:
   int* p = NULL;
   hoặc int* p = nullptr;
+
+
+Kích thước của con trỏ int:
+  cout << sizeof(int*);                   // 4 (bytes)
+  cout << (sizeof(int*) == sizeof(int));  // 1
 
 
 Sự tham chiếu của con trỏ tới biến:
