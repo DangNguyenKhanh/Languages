@@ -17,19 +17,28 @@ Kích thước của con trỏ:
   cout << (sizeof(int*) == sizeof(int));       // 1
   
   cout << sizeof(char*);                       // 4 (bytes)
-  cout << (sizeof(char*) == sizeof(char));     // 0
+  cout << (sizeof(char*) == sizeof(char));     // 0 vì 4 == 1
 
   cout << sizeof(float*);                      // 4 (bytes)
   cout << (sizeof(float*) == sizeof(float));   // 1
   
   cout << sizeof(double*);                     // 4 (bytes)
-  cout << (sizeof(double*) == sizeof(double)); // 0
+  cout << (sizeof(double*) == sizeof(double)); // 0 vì 4 == 8
+
 
 Sự tham chiếu của con trỏ tới biến:
   int a = 10;
   int* p = &a;
   *p = 20;
   cout << a;    // 20
+
+
+Địa chỉ lưu trữ của biến và địa chỉ của con trỏ
+  int a = 10;
+  cout << &a;     // 0x61ff0c - Địa chỉ của biến a
+  int* p = &a;
+  cout << p;      // 0x61ff0c - Địa chỉ trỏ tới của con trỏ p
+  cout << &p;     // 0x61ff08 - Địa chỉ của con trỏ 
 
 
 Khởi tạo hằng con trỏ:
