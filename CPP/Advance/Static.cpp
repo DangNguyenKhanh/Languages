@@ -58,8 +58,26 @@ Biến static trong class:
   {
      if(true)
      {
-          A obj;
+          static A obj;
      }
      cout << "Middle" << endl;
 }
+
+
+Hàm static trong class:
+-> Hàm static cho phép gọi mà không cần đến khởi tạo đối tượng
+  class A
+  {
+      public:
+          static void print()
+          {
+              cout << "Hello world!\n";
+          }
+  };
+
+  int main()
+  {
+      A::print();
+  }
+
 
