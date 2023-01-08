@@ -26,7 +26,7 @@ Biến static trong class:
           }
   };
 
-  int A::count = 0;
+  int A::count = 0;   // Phải khai báo mặc định bên ngoài
 
   int main()
   {
