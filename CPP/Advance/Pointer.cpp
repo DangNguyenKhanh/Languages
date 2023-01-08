@@ -12,10 +12,18 @@ Khởi tạo con trỏ là NULL:
   hoặc int* p = nullptr;
 
 
-Kích thước của con trỏ int:
-  cout << sizeof(int*);                   // 4 (bytes)
-  cout << (sizeof(int*) == sizeof(int));  // 1
+Kích thước của con trỏ:
+  cout << sizeof(int*);                        // 4 (bytes)
+  cout << (sizeof(int*) == sizeof(int));       // 1
+  
+  cout << sizeof(char*);                       // 4 (bytes)
+  cout << (sizeof(char*) == sizeof(char));     // 0
 
+  cout << sizeof(float*);                      // 4 (bytes)
+  cout << (sizeof(float*) == sizeof(float));   // 1
+  
+  cout << sizeof(double*);                     // 4 (bytes)
+  cout << (sizeof(double*) == sizeof(double)); // 0
 
 Sự tham chiếu của con trỏ tới biến:
   int a = 10;
