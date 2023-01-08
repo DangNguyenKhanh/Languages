@@ -13,4 +13,53 @@ Biến static trong hàm:
       A();    // 2
   }
 
+
 Biến static trong class:
+  class A
+  {
+      public:
+          static int count;
+      public:
+          A()
+          {
+
+          }
+  };
+
+  int A::count = 0;
+
+  int main()
+  {
+     A obj1;
+     cout << obj1.count << endl;  // 0
+     obj1.count++;
+     A obj2;
+     cout << obj2.count;          // 1
+  }
+
+
+Đối tượng static ảnh hưởng đến hàm hủy (destructor):
+-> vì là đối tượng static nên hàm destruct chỉ hủy khi kết thúc chương trình hay vì hết scope của if(true)
+  class A
+  {
+      public:
+          A()
+          {
+              cout << "Constructor" << endl;
+          }
+
+          ~A()
+          {
+              cout << "Destructor" << endl;
+          }
+  };
+
+  int main()
+  {
+     if(true)
+     {
+          A obj;
+     }
+     cout << "Middle" << endl;
+}
+
