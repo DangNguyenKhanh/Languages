@@ -24,7 +24,10 @@ Kích thước của con trỏ:
   
   cout << sizeof(double*);                     // 4 (bytes)
   cout << (sizeof(double*) == sizeof(double)); // 0 vì 4 == 8
-
+  
+  Địa chỉ một ô nhớ lưu ở dạng thập lục phân - hexadecimal: 0x61ff0c
+  Khi chuyển về dạng nhị phân - binary: 0110 0001 1111 1111 0000 1100 = 24 kí số = 24 bits = 3 bytes
+  Tuy nhiên một ô nhớ trong RAM = 32 bits = 4 bytes
 
 Sự tham chiếu của con trỏ tới biến:
   int a = 10;
