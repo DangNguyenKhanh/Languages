@@ -1,4 +1,4 @@
-Biến static trong hàm:
+1. Biến static trong hàm:
 - Là biến cục bộ trong hàm nhưng tồn tại cho đến khi chương trình kết thúc
 - Biến static chỉ được khởi tạo 1 lần, các lần sau trình biên dịch sẽ bỏ qua đoạn mã đó
   void A()
@@ -14,7 +14,7 @@ Biến static trong hàm:
   }
 
 
-Biến static trong class:
+2. Biến static trong class:
   class A
   {
       public:
@@ -37,7 +37,7 @@ Biến static trong class:
   }
 
 
-Đối tượng static ảnh hưởng đến hàm hủy (destructor):
+3. Đối tượng static ảnh hưởng đến hàm hủy (destructor):
 -> vì là đối tượng static nên hàm destruct chỉ hủy khi kết thúc chương trình hay vì hết scope của if(true)
   class A
   {
@@ -63,7 +63,7 @@ Biến static trong class:
 }
 
 
-Hàm static trong class:
+4. Hàm static trong class:
 -> Hàm static cho phép gọi mà không cần đến khởi tạo đối tượng
   class A
   {
@@ -73,6 +73,22 @@ Hàm static trong class:
               cout << "Hello world!\n";
           }
   };
+
+  int main()
+  {
+      A::print();
+  }
+Hoặc ta có thể đặc tả hàm bên ngoài:
+  class A
+    {
+        public:
+            static void print();
+    };
+
+  void A::print()
+  {
+      cout << "Hello world!\n";
+  }
 
   int main()
   {
