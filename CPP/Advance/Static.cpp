@@ -6,7 +6,7 @@
           static int value = 0;
           value++;
           if(value == 9)
-              cout << value << endl;
+              cout << value << endl;  // 9
       }
   }
 
