@@ -3,12 +3,13 @@
   {   
       for(int i = 0; i < 10; i++)
       {
-          static int value = 0;
+          static int value = 0;       // Chỉ tồn tại trong for, biến value tồn tại cho đến khi chương trình kết thúc
           value++;
           if(value == 9)
               cout << value << endl;  // 9
       }
   }
+-> Không nên sử dụng static cho hàm main
 
 
 2. Biến static trong hàm:
