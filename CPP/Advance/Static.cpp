@@ -15,10 +15,11 @@
 
 
 2. Biến static trong class:
+-> Được khởi tạo trước khi biên dịch tới hàm main
   class A
   {
       public:
-          static int count;   // Khai báo bên trong
+          static int count;   // Khai báo bên trong - Muốn sử dụng được phải định nghĩa
       public:
           A()
           {
@@ -26,7 +27,7 @@
           }
   };
 
-  int A::count = 0;   // Định nghĩa bên ngoài
+  int A::count = 0;   // Định nghĩa bên ngoài 
 
   int main()
   {
@@ -37,7 +38,33 @@
   }
 
 
-3. Đối tượng static ảnh hưởng đến hàm hủy (destructor):
+3. biến đối tượng static trong class:
+  class A
+  {
+      public:
+          A() { cout << "A's Constructor Called " << endl;  }
+  };
+
+  class B
+  {
+      public:
+          static A a;
+      public:
+          B() { cout << "B's Constructor Called " << endl; }
+  };
+
+  A B::a;   
+
+  int main()
+  {
+      B b;
+      return 0;
+      // A's Constructor Called
+      // B's Constructor Called
+  }
+
+
+4. Đối tượng static ảnh hưởng đến hàm hủy (destructor):
 -> vì là đối tượng static nên hàm destruct chỉ hủy khi kết thúc chương trình hay vì hết scope của if(true)
   class A
   {
@@ -63,7 +90,7 @@
 }
 
 
-4. Hàm static trong class:
+5. Hàm static trong class:
 -> Hàm static cho phép gọi mà không cần đến khởi tạo đối tượng
   class A
   {
