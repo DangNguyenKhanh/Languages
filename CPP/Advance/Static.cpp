@@ -18,7 +18,7 @@
   class A
   {
       public:
-          static int count;
+          static int count;   // Khai báo bên trong
       public:
           A()
           {
@@ -26,7 +26,7 @@
           }
   };
 
-  int A::count = 0;   // Phải khai báo mặc định bên ngoài
+  int A::count = 0;   // Định nghĩa bên ngoài
 
   int main()
   {
