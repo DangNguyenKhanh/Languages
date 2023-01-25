@@ -9,6 +9,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Link to css file -->
+    <link rel="stylesheet" rel="noopener" target="_blank" href="styles.css"> 
+
     <!-- Name tab of browser -->
     <title>MyWeb</title>
 </head>
@@ -18,36 +21,41 @@
 <!-- BODY -->
 <body>
     <main>
-        <p>Đăng nhập</p>
+        <p class="red-text">TRANG CHỦ</p>
+        <p>SẢN PHẨM</p>
+        <p class="red-text">Đăng nhập</p>
         
-        <!-- Sending form to Server -->
-        <form action="">
-            <!-- Input required without blank text -->
-            <input type="text" placeholder="Gồm 1 đến 20 kí tự" required>
-            
-            <!-- Same name-attribute will be a select choice -->
-            <label for="answer1">
-                <input id="answer1" value="Nam" type="radio" name="gender" required>Nam 
-            </label>
-            
-            <label for="answer2">
-                <input id="answer2" value="Nữ" type="radio" name="gender" required>Nữ
-            </label>
+        <div>
+                <!-- Sending form to Server -->
+            <form action="">
+                <!-- Input required without blank text -->
+                <input type="text" placeholder="Gồm 1 đến 20 kí tự" required>
+                
+                <!-- Same name-attribute will be a select choice -->
+                <label for="answer1">
+                    <input id="answer1" value="Nam" type="radio" name="gender" required>Nam 
+                </label>
+                
+                <label for="answer2">
+                    <input id="answer2" value="Nữ" type="radio" name="gender" required>Nữ
+                </label>
 
-            <label for="answer3">
-                <input id="answer3" value="Love dogs" type="checkbox" name="animal">Love dogs
-            </label>
-            
-            <label for="answer4">
-                <input id="answer4" value="Love cats" type="checkbox" name="animal">Love cats
-            </label>
+                <label for="answer3">
+                    <input id="answer3" value="Love dogs" type="checkbox" name="animal">Love dogs
+                </label>
+                
+                <label for="answer4">
+                    <input id="answer4" value="Love cats" type="checkbox" name="animal">Love cats
+                </label>
 
-            <label for="answer5">
-                <input id="answer5" value="Love humans" type="checkbox" name="human" checked>Love humans
-            </label>
-            <!-- Trigger to send -->
-            <button type="submit">Đăng nhập</button>
-        </form>
+                <label for="answer5">
+                    <input id="answer5" value="Love humans" type="checkbox" name="human" checked>Love humans
+                </label>
+                
+                <!-- Trigger to send -->
+                <button type="submit">Đăng nhập</button>
+            </form>
+        </div>
 
     </main>
 </body>
