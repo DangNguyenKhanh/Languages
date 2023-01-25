@@ -25,15 +25,26 @@
             <!-- Input required without blank text -->
             <input type="text" placeholder="Gồm 1 đến 20 kí tự" required>
             
-            <!-- same name-attribute will be a select choice -->
+            <!-- Same name-attribute will be a select choice -->
             <label for="answer1">
-                <input id="answer1" type="radio" name="gender">Nam 
+                <input id="answer1" value="Nam" type="radio" name="gender" required>Nam 
             </label>
             
             <label for="answer2">
-                <input id="answer2" type="radio" name="gender">Nữ
+                <input id="answer2" value="Nữ" type="radio" name="gender" required>Nữ
             </label>
 
+            <label for="answer3">
+                <input id="answer3" value="Love dogs" type="checkbox" name="animal">Love dogs
+            </label>
+            
+            <label for="answer4">
+                <input id="answer4" value="Love cats" type="checkbox" name="animal">Love cats
+            </label>
+
+            <label for="answer5">
+                <input id="answer5" value="Love humans" type="checkbox" name="human" checked>Love humans
+            </label>
             <!-- Trigger to send -->
             <button type="submit">Đăng nhập</button>
         </form>
