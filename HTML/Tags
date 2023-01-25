@@ -1,1 +1,45 @@
-Thẻ main trong HTML5 giúp các công cụ tìm kiếm và các lập trình viên dễ dàng xác định nội dung trên trang Web.
+<!-- This is HTML5 -->
+<!DOCTYPE html>
+
+<!-- Content of HTML -->
+<html lang="en">
+
+<!-- HEAD -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Name tab of browser -->
+    <title>MyWeb</title>
+</head>
+<!-- END OF HEAD -->
+
+
+<!-- BODY -->
+<body>
+    <main>
+        <p>Đăng nhập</p>
+        
+        <!-- Sending form to Server -->
+        <form action="">
+            <!-- Input required without blank text -->
+            <input type="text" placeholder="Gồm 1 đến 20 kí tự" required>
+            
+            <!-- same name-attribute will be a select choice -->
+            <label for="answer1">
+                <input id="answer1" type="radio" name="gender">Nam 
+            </label>
+            
+            <label for="answer2">
+                <input id="answer2" type="radio" name="gender">Nữ
+            </label>
+
+            <!-- Trigger to send -->
+            <button type="submit">Đăng nhập</button>
+        </form>
+
+    </main>
+</body>
+<!-- END OF BODY -->
+
+</html>
