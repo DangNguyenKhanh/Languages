@@ -10,3 +10,11 @@ elif (diem >= '3') and (diem < '5'):
     print("Học sinh trung bình")
 else:
     print("Học sinh yếu")
+
+    
+# Cấu trúc điều kiện kèm theo từ khóa in
+numberString = "123"
+if '1' in numberString:
+    print("contain 1")
+
+
