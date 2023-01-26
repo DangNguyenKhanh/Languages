@@ -23,3 +23,15 @@ x = 3
 y = 10
 print('x + y =', x + y)
 
+# Special quotes
+print('This is double quotes ""')   # This is double quotes ""
+print("This is single quotes ''")   # This is single quotes ''
+
+# Escape sequence
+print('\\')     # \
+print('\'')     # '
+print('\"')     # "
+print('\n')     # breakline
+print('\t')     # tab
+
+
