@@ -9,8 +9,9 @@ print(3 // 4)       # 0
 
 print(3 % 4)        # 3
 print(abs(-1))      # 1
-print(pow(2, 3))    # 8
 
+print(pow(2, 3))    # 8
+print(2 ** 3)       # 8
 
 # when import math
 import math
