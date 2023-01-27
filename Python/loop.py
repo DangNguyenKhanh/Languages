@@ -40,3 +40,9 @@ for i in [1, 2, 3, 4, 5]:
     print(i)
 
 
+# Sử dụng range trong for
+for i in range(5):
+    print(i, end=" ")   # 0 1 2 3 4
+
+
+    
