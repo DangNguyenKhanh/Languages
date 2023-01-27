@@ -8,5 +8,5 @@ def interchange_sort(a):
                 a[i] = a[j]
                 a[j] = temp
     return a
-# Trường hợp tốt nhất: O(1)
 # Trường hợp xấu nhất: O(n * (n - 1) / 2) = O(n^2)
+# Không gian hỗ trợ: O(1)
