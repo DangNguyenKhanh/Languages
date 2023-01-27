@@ -34,4 +34,6 @@ print('\"')     # "
 print('\n')     # breakline
 print('\t')     # tab
 
-
+# in cùng 1 dòng
+for i in range(5):
+    print(i, end=" ")   # 0 1 2 3 4
