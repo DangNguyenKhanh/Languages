@@ -27,5 +27,17 @@ while True:
 else:
     print('hello')  # Không in ra gì hết
 
+    
+# Cấu trúc lặp for cho mảng
+count = 0
+for i in [1, 2, 3, 4, 5]:
+    count += 1
+print(count)
 
- 
+
+# in ra các phần tử bằng for
+count = 0
+for i in [1, 2, 3, 4, 5]:
+    print(i)
+
+
