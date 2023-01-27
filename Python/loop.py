@@ -36,7 +36,6 @@ print(count)
 
 
 # in ra các phần tử bằng for
-count = 0
 for i in [1, 2, 3, 4, 5]:
     print(i)
 
