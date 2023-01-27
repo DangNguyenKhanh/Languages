@@ -13,4 +13,9 @@ def bubble_sort(a):
 a = [9, 1, 8, 2, 7]
 a = bubble_sort(a)
 print(a)
-# Trường hợp xấu nhất: 
+# Số lần so sánh: (n - 1) + (n - 2) + ... + 1 = n/2 * [2 * (n - 1) - (n- 1)] = n * (n - 1) / 2 
+# Số lần di chuyển: 3 * n * (n - 1) / 2 
+# Trường hợp xấu nhất: T(n) = O(n^2) khi mảng bị sắp xếp giảm dần 
+
+
+
