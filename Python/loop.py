@@ -40,9 +40,11 @@ for i in [1, 2, 3, 4, 5]:
     print(i)
 
 
-# Sử dụng range trong for
+# Sử dụng range trong for. Syntax: range(start, end, step) trong đó [start, end)
 for i in range(5):
     print(i, end=" ")   # 0 1 2 3 4
 
+for i in range(3, 5):
+    print(i, end=" ")   # 3 4
 
     
