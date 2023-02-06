@@ -44,5 +44,5 @@ print(math.floor(3.9))                      # 3
 print(math.floor(3.1))                      # 3
 
 
-# Đẳng thức luôn đúng
+# Đẳng thức luôn đúng cho a,b là số nguyên
 a = b * (a // b) + (a % b)
