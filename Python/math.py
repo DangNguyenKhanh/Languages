@@ -13,6 +13,8 @@ print(abs(-1))      # 1
 print(pow(2, 3))    # 8
 print(2 ** 3)       # 8
 
+print(2 ** 2 ** 2)  # 2^(2^2) = 2^4 = 4 x 4 = 16
+
 # when import math
 import math
 print(math.pi)                              # 3.141592653589793
