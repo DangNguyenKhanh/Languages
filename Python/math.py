@@ -4,17 +4,19 @@ print(3 - 4)        # -1
 print(3 * 4)        # 12
 print(3 / 4)        # 0.75
 
-
-# Floor Division
+# Floor Division - div
 print((-1) // 2)    # -1    phép chia lấy nguyên, làm tròn hướng về âm vô cùng
 print(3 // 4)       # 0
 
+# mod
 print(3 % 4)        # 3
+
+# absolute
 print(abs(-1))      # 1
 
+# power
 print(pow(2, 3))    # 8
 print(2 ** 3)       # 8
-
 print(2 ** 2 ** 2)  # 2^(2^2) = 2^4 = 4 x 4 = 16
 
 
