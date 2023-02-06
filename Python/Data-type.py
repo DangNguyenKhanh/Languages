@@ -19,5 +19,13 @@ x = 'Hello'
 print(x)    # Hello
 
 
+# Hàm trả về kiểu dữ liệu
+print(type(123))    # <class 'int'>
+print(type(2.4))    # <class 'float'> 
+print(type('a'))    # <class 'str'>
+print(type("HCM"))  # <class 'str'>
+print(type(3 > 2))  # <class 'bool'>
+
+
 
 
