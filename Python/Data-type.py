@@ -16,7 +16,8 @@ print(x)
 # Biến trong python có thể thay đổi kiểu dữ liệu một cách tự động
 x = 100
 x = 'Hello'
-print(x)    # Hello
+print(x)        # Hello
+print(type(x))  # <class 'str'>
 
 
 # Hàm trả về kiểu dữ liệu
