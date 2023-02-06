@@ -19,6 +19,10 @@ print(pow(2, 3))    # 8
 print(2 ** 3)       # 8
 print(2 ** 2 ** 2)  # 2^(2^2) = 2^4 = 4 x 4 = 16
 
+# hàm divmod() trả về (giá trị div, giá trị mod)
+x, y = divmod(12, 3)
+print(x, y)     # 4 0
+
 
 # when import math
 import math
