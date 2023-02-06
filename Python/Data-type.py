@@ -28,5 +28,10 @@ print(type("HCM"))  # <class 'str'>
 print(type(3 > 2))  # <class 'bool'>
 
 
+# Số lớn
+12e50 = 12.10^50
+1.56e-2 = 1,56.10^-2
+
+
 
 
