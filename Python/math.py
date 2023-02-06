@@ -4,6 +4,7 @@ print(3 - 4)        # -1
 print(3 * 4)        # 12
 print(3 / 4)        # 0.75
 
+# Floor Division
 print((-1) // 2)    # -1    phép chia lấy nguyên, làm tròn hướng về âm vô cùng
 print(3 // 4)       # 0
 
