@@ -37,6 +37,23 @@ x = 1 + 2 + 3 \
     + 4
 print(x)    # 10
 
+# Nếu có ngoặc thì khỏi cần \
+x = 1 + 2 * (4
+             + 4)
+print(x)    # 17
+
+
+# In chuỗi xuống dòng
+x = """Đặng Nguyên
+Khánh"""
+print(x)            # Đặng Nguyên
+                    # Khánh
+    
+
+
+
+
+
 
 
 
