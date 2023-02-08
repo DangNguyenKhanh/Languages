@@ -6,6 +6,10 @@ print(type(1 + 1))          # <class 'int'>
 print(1.1 + 1.1)            # 2.2
 print(type(1.1 + 1.1))      # <class 'float'>
 
+# float và int
+print(1 + 1.0)              # 2.0
+print(type(1 + 1.0))        # <class 'float'>
+
 # string
 print('1' + '1')            # 11
 print(type('1' + '1'))      # <class 'str'>
@@ -17,6 +21,7 @@ print(type('1' + str(1)))   # <class 'str'>
 # int + string
 print(1 + int('1'))         # 2
 print(type(1 + int('1')))   # <class 'int'>
+
 
 
 # calculate sum
@@ -52,9 +57,7 @@ print("Đặng", "Nguyên", sep="|", end="---")
 print("Khánh")          # Đặng|Nguyên---Khánh
 
 
-# Phải đặt tham số thực sự trước tham số mặc định
-def foo(a, b=1, c=2):
-    # do something
+
 
 
 
