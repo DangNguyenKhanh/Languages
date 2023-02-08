@@ -1,5 +1,5 @@
 # class SinhVien có 2 thuộc tính name, id và 2 phương thức set, get
-class SinhVien:
+class SinhVien:             # CamelCase 
     name = "NULL"
     id = -1
 
