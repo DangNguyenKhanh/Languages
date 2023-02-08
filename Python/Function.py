@@ -45,11 +45,18 @@ print(x)    # 10
 # Quy định vị trí tham số truyền
 def foo(a, b):
     return a - b
-
 print(foo(3, 4))        # -1
 print(foo(4, 3))        # 1
 print(foo(b=4, a=3))    # -1
 
 
+# Tham số mặc định (a) phải đứng trước tham số không mặc định (b=1, c=2)
+def foo(a, b=1, c=2):
+    print(a)
+
+
+# Hàm định nghĩa trực tiếp  (Không nên dùng)
+s = lambda a, b: a + b
+print(s(10, 2))     # 12
 
 
