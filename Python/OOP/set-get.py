@@ -22,3 +22,10 @@ obj2.get()
 print(type(obj1))       # <class '__main__.SinhVien'>
 print(type(SinhVien))   # <class 'type'>
 
+
+# Lệnh dir hiện ra tất cả thuộc tính và phương thức
+print(dir(SinhVien))    # ...
+
+
+
+
