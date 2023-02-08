@@ -46,3 +46,6 @@ for i in range(5):
 # In nhiều giá trị 1 lúc
 print(1, 2, "Đặng Nguyên Khánh")
 
+
+
+
