@@ -13,6 +13,14 @@ x = '10'
 print(x)
 
 
+# bool
+x = 3 > 2
+print(x)    # True
+
+x = 3 < 2
+print(x)    # False
+
+
 # Biến trong python có thể thay đổi kiểu dữ liệu một cách tự động
 x = 100
 x = 'Hello'
