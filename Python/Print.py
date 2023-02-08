@@ -47,5 +47,15 @@ for i in range(5):
 print(1, 2, "Đặng Nguyên Khánh")
 
 
+# Sử dụng biến sep và end - sep và end là tham số lựa chọn
+print("Đặng", "Nguyên", sep="|", end="---")
+print("Khánh")          # Đặng|Nguyên---Khánh
+
+
+# Phải đặt tham số thực sự trước tham số mặc định
+def foo(a, b=1, c=2):
+    # do something
+
+
 
 
