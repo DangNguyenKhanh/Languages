@@ -14,8 +14,11 @@ class SinhVien:             # CamelCase
 
 obj1 = SinhVien()
 obj1.get()
-print(type(obj1))   # <class '__main__.SinhVien'>
 
 obj2 = SinhVien()
 obj2.set("Khánh", 10)
 obj2.get()
+
+print(type(obj1))       # <class '__main__.SinhVien'>
+print(type(SinhVien))   # <class 'type'>
+
