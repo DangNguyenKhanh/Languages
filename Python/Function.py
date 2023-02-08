@@ -1,9 +1,7 @@
 # Tên hàm không được viết hoa, phải dùng dấu gạch dưới _
-def get_sum(a, b):
+def get_sum(a, b):          # actual parameters - tham số thực sự
     return a + b
-# Bỏ dòng này
-# Bỏ dòng này
-print(get_sum(1, 2))
+print(get_sum(1, 2))        # 3
 
 
 # Default parameters - Tham số mặc định
@@ -42,5 +40,16 @@ def foo():
 
 foo()       # 12
 print(x)    # 10
+
+
+# Quy định vị trí tham số truyền
+def foo(a, b):
+    return a - b
+
+print(foo(3, 4))        # -1
+print(foo(4, 3))        # 1
+print(foo(b=4, a=3))    # -1
+
+
 
 
