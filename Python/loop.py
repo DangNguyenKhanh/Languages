@@ -28,7 +28,15 @@ while True:
 else:
     print('hello')  # Không in ra gì hết
 
-    
+
+# Duyệt index
+for i in range([start, end), step):
+ 
+                
+# Duyệt phần tử
+for i in list:
+                
+                
 # Cấu trúc lặp for cho mảng
 count = 0
 for i in [1, 2, 3, 4, 5]:
