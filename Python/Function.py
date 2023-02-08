@@ -35,3 +35,12 @@ foo(x)
 print(x)    # 5
 
 
+# Tìm biến bên ngoài nếu biến trong hàm không có
+x = 10
+def foo():
+    print(x + 2)
+
+foo()       # 12
+print(x)    # 10
+
+
