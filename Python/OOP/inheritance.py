@@ -1,6 +1,3 @@
-from sklearn import linear_model
-import pandas as pd
-
 import math
 class Quadrangle:
     def __init__(self, name, a, b, c, d):
