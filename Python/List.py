@@ -2,6 +2,16 @@
 a = [1, 2.2, "Hello", [1, 2, "True"]]
 
 
+# type
+a = [1, 2, 3, 4, 5]
+print(type(a))  # <class 'list'>
+
+
+# empty list
+a = []
+print(a)    # []
+
+
 # int List
 a = [1, 2, 3, 4, 5]
 # index(+):  0  1  2  3  4
@@ -18,9 +28,17 @@ print(a[0])     # 10
 print(a)        # [10, 2, 3, 4, 5]
 
 
-# concatenate list
+# Cộng 2 list
+a = [10, 2, 3, 4, 5]
 b = [1, 2, 3]
-print(a + b)    # [10, 2, 3, 4, 5, 1, 2, 3]
+c = a + b
+print(c)    # [10, 2, 3, 4, 5, 1, 2, 3]
+
+
+# Nhân 2 list
+a = [1, 2, 3]
+b = 2 * a
+print(b)    # [1, 2, 3, 1, 2, 3]
 
 
 # length of list (number of elements)
@@ -57,7 +75,7 @@ print(a.pop())      # 5
 print(a)            # [1, 2, 3, 4]
 
 
-# Delete any-where
+# Xóa 1 phần tử a[i]
 a = [1, 2, 3, 4, 5]
 del a[1]
 print(a)            # [1, 3, 4, 5]
