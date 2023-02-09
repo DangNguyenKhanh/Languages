@@ -51,8 +51,8 @@ h1 = Rectangle("h1", 5, 6)
 print(h1.name)
 print(h1.a)                 
 print(h1.circumference())   # Parallelogram circumference
-print(h1.area())    # own area
-print(h1.d)         # AttributeError: 'Rectangle' object has no attribute 'd'
+print(h1.area())            # own area
+print(h1.d)                 # AttributeError: 'Rectangle' object has no attribute 'd'
 
 
 
