@@ -1,4 +1,4 @@
-| Thêm phần tử x vào cuối list
+> Thêm phần tử x vào cuối list
 - a.append(x)
 
 | Xóa dữ liệu list, list thành rỗng
