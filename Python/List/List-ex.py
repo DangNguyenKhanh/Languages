@@ -92,14 +92,7 @@ a = [1, 2, 2, 2, 5]
 print(a.count(2))       # 3
 
 
-# Sự tham chiếu 2 danh sách
-a = [1, 2, 3]
-b = a
-b[0] = 10
-print(a)    # [10, 2, 3]
-
-
-# Khắc phục sự tham chiếu
+# copy list
 a = [1, 2, 3]
 b = a.copy()
 b[0] = 10
