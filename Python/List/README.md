@@ -14,7 +14,7 @@
 - k = a.index(x)
 
 > Chèn phần tử x vào vị trí index
-- a.insert(index, x)
+- a.insert(index, x), a.insert(index, list) = [1, [2, 3, 4], 5]
 
 > Xóa phần tử ở cuối
 - x = a.pop()
