@@ -48,8 +48,12 @@ for i in range(5):
     print(i, end=" ")   # 0 1 2 3 4
 
 
-# In nhiều giá trị 1 lúc
-print(1, 2, "Đặng Nguyên Khánh")
+# In nhiều giá trị 1 lúc cách nhau dấu phẩy tự cách khoảng trắng
+print(1, 2, "Đặng Nguyên Khánh")                # 1 2 Đặng Nguyên Khánh
+
+
+# In nhiều giá trị 1 lúc cách nhau dấu cộng 
+print(str(1) + str(2) + "Đặng Nguyên Khánh")    # 12Đặng Nguyên Khánh
 
 
 # Sử dụng biến sep và end - sep và end là tham số lựa chọn
