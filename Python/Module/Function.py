@@ -2,6 +2,7 @@
 print(dir())                # __builtins__
 print(dir(__builtins__))    # Hàm của hệ thống
 print(dir(math))            # Hàm của thư viện math
+print(dir(class_name))      # Cấu trúc xem hàm của một class
 
 
 # Một số hàm
