@@ -27,7 +27,7 @@ for x in R:                 # Kích hoạt
     print(x, end=' ')       # 0 1 4 9 16 25 36 49 64 81
     
     
-# Kiểu dữ liệu generator chỉ tạo 1 lần xong biến mất
+# Kiểu dữ liệu generator như đầu đọc, đọc qua sẽ bỏ dữ liệu
 R = (i*i for i in range(10))
 print(type(R))              # <class 'generator'>
 for x in R:                 # Kích hoạt
