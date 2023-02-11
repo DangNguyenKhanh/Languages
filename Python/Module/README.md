@@ -5,7 +5,7 @@
 - from math import sqrt
 
 > import nhiều module
-- import <module1>, <module2>,...
+- import module1, module2,...
   
 > import đổi tên cho gọn
 - import math as m
