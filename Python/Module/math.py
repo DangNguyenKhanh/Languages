@@ -46,3 +46,19 @@ print(math.floor(3.1))                      # 3
 
 # Đẳng thức luôn đúng cho a,b là số nguyên
 a = b * (a // b) + (a % b)
+
+
+# Hằng số pi và e
+print(m.pi) # 3.141592653589793
+print(m.e)  # 2.718281828459045
+
+
+# Số phức trong thư viện math
+z = 3 + 2j
+print(z)        # (3+2j)
+print(type(z))  # <class 'complex'>
+print(abs(z))   # 3.605551275463989
+
+
+
+
