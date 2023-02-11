@@ -98,3 +98,36 @@ b = a.copy()
 b[0] = 10
 print(a)    # [1, 2, 3]
 print(b)    # [10, 2, 3]
+
+
+# Vùng chỉ số - slicing
+a = [1, 2, 3, 4, 5]
+print(a[0:3])   # [1, 2, 3]
+print(a[2:])    # [3, 4, 5]         start at 2
+print(a[:4])    # [1, 2, 3, 4]      start at 0
+print(a[:])     # [1, 2, 3, 4, 5]   print all list
+
+
+# Gán phần tử theo vùng chỉ số
+a = [1, 2, 3, 4, 5]
+a[0:2] = 'a', 'b'
+print(a[:])     # ['a', 'b', 3, 4, 5]
+
+
+# Vùng chỉ số có thể dùng chỉ số âm
+a = [1, 2, 3, 4, 5]
+a[-len(a):-len(a)+2] = 'a', 'b'
+print(a[:])     # ['a', 'b', 3, 4, 5]
+
+
+# a[start, end, increment = 1]
+a = [1, 2, 3, 4, 5]
+print(a[0:len(a):2])    # [1, 3, 5]
+print(a[::2])           # [1, 3, 5] mặc định start=0, end=len(a)
+print(a[::-2])          # [5, 3, 1] mặc định start=-1, end=-len(a)-1
+
+
+
+
+
+
