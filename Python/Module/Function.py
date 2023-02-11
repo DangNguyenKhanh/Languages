@@ -1,6 +1,7 @@
 # Xem hàm của hệ thống
 print(dir())                # __builtins__
 print(dir(__builtins__))    # Hàm của hệ thống
+print(dir(math))            # Hàm của thư viện math
 
 
 # Một số hàm
