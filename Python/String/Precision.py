@@ -14,6 +14,5 @@ print(s.format(0.1))    # " 0.100"
 print(s.format(1.0))    # "  1.00"
 
 
-# Cú pháp hoàn chỉnh
-{chỉ số : char <=> # width.p}
- 
+# Xem cú pháp hoàn chỉnh của format ở phần advanced
+
