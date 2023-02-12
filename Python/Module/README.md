@@ -2,6 +2,7 @@
 - import math
 
 > Sử dụng trực tiếp hàm số module:  sqrt(2)
+- from math import *
 - from math import sqrt
 
 > import nhiều module
