@@ -3,7 +3,7 @@ import sys
 print(sys.getrecursionlimit())  # 1000
 
 
-# Hàm Fibonacci
+# Hàm Fibonacci - Nên sử dụng cách không đệ quy
 def fibonacci(n):
     if n == 1:
         return 1
@@ -19,7 +19,7 @@ print(fibonacci(4)) # 5
 print(fibonacci(5)) # 8
 
 
-# Hàm factorial - giai thừa
+# Hàm factorial - giai thừa 
 def factorial(n):
     if n == 0:
         return 1
