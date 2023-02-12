@@ -57,8 +57,25 @@ s = "{0:-<10} {0:*^10} {0:->10}"
 print(s.format(123))   # 123------- ***123**** -------123
 
 
+# Chỉ lệnh kiểu (type) dữ liệu muốn in 
+b: nhị phân
+c: ký tự ASCII hoặc Unicode
+d: số nguyên
+f: số thập phân
+e: số thập phân dạng lũy thừa của số e
+g: số dạng tổng quát
+ 
+s = "{0:b} {0:c} {0:d}"
+print(s.format(66))     # 1000010 B 66
 
 
+# Chỉ lệnh đặt dấu phẩy vào nhóm 3 chữ số
+s = "{0:,.5f}"
+print(s.format(100022800.234555))   # 100,022,800.23456
+
+
+# Chỉ lệnh format()
+{chỉ số : <char> <kí tự căn hàng> <#> <width> <,> <.> <p> <type>}
 
 
 
