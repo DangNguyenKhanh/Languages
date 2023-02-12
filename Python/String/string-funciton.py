@@ -110,4 +110,9 @@ print("*".join(a))  # cba*abc*abc
 print(" ".join(a))  # cba abc abc
 
 
+# Ứng dụng của split để lấy 2 giá trị cùng 1 hàng
+s = input()     # 3 10
+x, y = s.split()
+m, n = eval(x), eval(y) 
+print(m, n)     # 3 10
 
