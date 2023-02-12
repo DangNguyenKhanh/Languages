@@ -49,4 +49,20 @@ print(a)        # [1, 2, 3, 4, 5]
 f.close()
 
 
+# Mỗi dòng sẽ là 1 list và bỏ tất cả list từng dòng vào 1 list chung
+f = open("inp.dat", 'r')
+a = f.readlines()
+print(a)    # ['hello world\n', '1 2 3 4 5\n', '1.1 2.2 3.3 4.4 5.5\n']
+f.close()
+
+
+# In ra từng dòng trong file bằng for 
+f = open("inp.dat", 'r')
+for line in f:
+    print(line, end='')
+f.close()
+
+
+# 
+
 
