@@ -31,6 +31,6 @@ F or F = F
 
 
 # Phép NOT
-!T = F
-!F = T
+not T = F
+not F = T
 
