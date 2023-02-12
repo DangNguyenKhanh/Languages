@@ -21,9 +21,23 @@ print(bool(3 < 2))      # False
 print(bool(0))          # False
 print(bool(4))          # True
 print(bool([]))         # False
+print(bool("Dang")) # True
 print(bool((1, 2, 3)))  # True
 print(bool(12 and [1, 2]))  # True
 print(bool(33 and ""))      # False
+
+print(0 in [0, 1, 2])   # True
+print(0 in range(10))   # True
+
+print(bool(print("Hi"))) # False, hàm print trả về None
+
+Giá trị False:
+- Là các số = 0
+- Trả về None
+- list, tuple rỗng
+- xâu ký tự rỗng
+- hàm void
+- hàm trả về 0
 
 
 # Biến trong python có thể thay đổi kiểu dữ liệu một cách tự động
