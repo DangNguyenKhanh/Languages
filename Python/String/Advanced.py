@@ -42,9 +42,10 @@ s = "Đây là {0} và {1}. Ta có {1} và {0}".format('a', 'b')  # Khi dùng ch
 print(s)    # Đây là a và b. Ta có b và a
 
 
-# Tham số của placeholder {chỉ số : độ rộng}
+# Tham số của placeholder {chỉ số : độ rộng}  - Số căn phải, chữ căn trái
 s = "hello{:5}và{:5}".format(1, 2)
 print(s)    # hello    1và    2
+
 
 
 
