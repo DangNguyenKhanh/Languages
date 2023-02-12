@@ -36,10 +36,7 @@ print('Hello'.startswith('He'))    # True
 print('hello'.startswith('He'))    # False
 
 
-# Hàm trả về không tham chiếu lên chuỗi
-name = "khanh"
-print(name.upper())     # KHANH
-print(name)             # khanh
+
 
 
 
