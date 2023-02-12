@@ -15,10 +15,13 @@ print(x)
 
 # bool
 x = 3 > 2
-print(x)    # True
-
-x = 3 < 2
-print(x)    # False
+print(x)                # True
+print(3 < 2)            # False
+print(bool(3 < 2))      # False
+print(bool(0))          # False
+print(bool(4))          # True
+print(bool([]))         # False
+print(bool((1, 2, 3)))  # True
 
 
 # Biến trong python có thể thay đổi kiểu dữ liệu một cách tự động
