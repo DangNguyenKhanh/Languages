@@ -61,5 +61,53 @@ print(s[3:6].count("abc"))      # 0
 print(s[3:7].count("abc"))      # 1
 
 
+# Hàm find() trả về index, thất bại trả về false
+s = "abc cba abc"
+print(s.find("cba"))    # 4
+print(s.find("bbb"))    # -1
+
+
+# Hàm index() cũng trả về index, thất bại lại báo lỗi
+s = "abc cba abc"
+print(s.index("cba"))    # 4
+print(s.index("bbb"))    # ValueError: substring not found
+
+
+# Hàm find() và index() đều có tham số [start, end]
+s = "cba abc abc"
+print(s.index("cba", 0, 3))    # 0
+print(s.index("bbb", 0, 3))    # ValueError: substring not found
+
+
+# Hàm replace() thay thế chuỗi con 
+s = "cba abc abc"
+print(s.replace("cba", "oke"))  # oke abc abc
+
+
+# Tham số mở rộng của hàm replace(old, new, count=-1)
+s = "cba abc abc"
+print(s.replace('a', 'A', 2))  # cbA Abc abc    2 lần thay thế
+
+
+# Hàm tách split()
+s = "   cba abc abc   \n"
+print(s.split())    # ['cba', 'abc', 'abc']
+
+
+# Tham số trong split(sep=none, maxsplit=-1)
+s = "   cba abc abc   \n"
+print(s.split())                        # ['cba', 'abc', 'abc']
+print(s.split(sep=' ', maxsplit=3))     # ['', '', '', 'cba abc abc   \n']
+print(s.split(sep=' ', maxsplit=4))     # ['', '', '', 'cba', 'abc abc   \n']
+
+
+# Hàm join nối phần tử của list
+s = "   cba abc abc   \n"
+a = s.split()
+print(a)            # ['cba', 'abc', 'abc']
+print("".join(a))   # cbaabcabc
+print("*".join(a))  # cba*abc*abc
+print(" ".join(a))  # cba abc abc
+
 
 
