@@ -22,6 +22,8 @@ print(bool(0))          # False
 print(bool(4))          # True
 print(bool([]))         # False
 print(bool((1, 2, 3)))  # True
+print(bool(12 and [1, 2]))  # True
+print(bool(33 and ""))      # False
 
 
 # Biến trong python có thể thay đổi kiểu dữ liệu một cách tự động
