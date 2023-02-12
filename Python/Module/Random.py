@@ -6,6 +6,10 @@ from random import random
 print(random())
 
 
+# Sinh ra số nguyên từ [1, 100]
+print(int(100 * random()) + 1)
+
+
 # Sinh ra số nguyên từ [0, 100]
 print(int(101 * random()))
 
