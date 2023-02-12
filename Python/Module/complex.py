@@ -1,4 +1,4 @@
-# Số phức trong thư viện math
+# Số phức 
 z = 3 + 2j
 print(z)        # (3+2j)
 print(type(z))  # <class 'complex'>
