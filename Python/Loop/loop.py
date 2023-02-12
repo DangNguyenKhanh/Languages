@@ -34,7 +34,8 @@ for i in range([start, end), step):
  
                 
 # Duyệt phần tử
-for i in list:
+for x in list:
+    x = 10      # Không ảnh hưởng đến list, chỉ nên dùng để in          
                 
                 
 # Cấu trúc lặp for cho mảng
