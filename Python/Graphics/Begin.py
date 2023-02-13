@@ -2,9 +2,9 @@
 import turtle as t
 import time
 
-t.fd(100)       # Tiến về phía trước 100 bước = 100 pixel
-t.shape("turtle")
-time.sleep(5)   # ngăn đóng window
+t.fd(100)         # Tiến về phía trước 100 bước = 100 pixel
+t.shape("turtle") # Nếu không có sẽ là mũi tên
+time.sleep(5)     # ngăn đóng window
 
 
 # Kích thước canvas - khung vẽ
