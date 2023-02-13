@@ -60,3 +60,10 @@ s = lambda a, b: a + b
 print(s(10, 2))     # 12
 
 
+# Đổi tên cho hàm
+print(print)    # <built-in function print>
+cout = print
+cout("Hello world!")    # Hello world!
+
+
+
