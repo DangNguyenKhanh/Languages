@@ -26,5 +26,5 @@ def permutation(n):
             new = new + insert_all(n, pe)
         return new
 
-a = permutation(4)
+a = permutation(4)  # sinh ra hoán vị [1, 2, 3, 4]
 print(a)
