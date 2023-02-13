@@ -7,7 +7,7 @@ t.shape("turtle") # Nếu không có sẽ là mũi tên
 time.sleep(5)     # ngăn đóng window
 
 
-# Kích thước canvas - khung vẽ
+# Kích thước window
 - Kích thước 640 x 480 mặc định của window
          90 độ
 180 độ            0 độ
