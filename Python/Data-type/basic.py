@@ -13,6 +13,12 @@ x = '10'
 print(x)
 
 
+# xâu ký tự không cho thay đổi phần tử
+s = "abc"
+s[0] = 'k'
+print(s)    # TypeError: 'str' object does not support item assignment
+
+
 # bool
 x = 3 > 2
 print(x)                # True
