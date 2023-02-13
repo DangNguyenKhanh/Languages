@@ -19,8 +19,39 @@ t.setup(480, 360, startx=100, starty=200)
 
 
 # Kiểm tra độ rộng canvas
-t.setup(480, 360, startx=100, starty=200)
 print(t.screensize())   # canvas = (400, 300)
+
+
+# Thiết lập lại canvas
+t.screensize(2000, 1500)
+
+
+# set màu nền canvas
+t.screensize(bg="blue")
+
+
+# Thiết lập tọa độ ảo đưa gốc tọa độ vào đó
+t.setworldcoordinates(0, 0, 300, 200)
+t.fd(100)
+
+
+# Thiết lập màu vẽ cho bút vẽ
+t.color("red")
+
+
+# Vẽ hình tròn
+t.circle(100, 360)    # Đường tròn bán kính 100 px
+t.circle(100, 360, 5) # Lục giác 5 cạnh nội tiếp đường tròn = 5 nét
+t.circle(50, 180)     # Nửa đường tròn
+t.circle(50, 90)      # 1/4 đường tròn
+
+
+# Tô màu cho hình
+t.color("black", "violet")  # nét bút = black, tô màu = violet
+t.pensize(3)    # Nét đậm của nét bút
+t.begin_fill()
+t.circle(100, 360)
+t.end_fill()
 
 
 # 
