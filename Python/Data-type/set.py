@@ -80,4 +80,41 @@ print(4 in set)     # True
 print(5 in set)     # False
 
 
+# Kiểm tra tập con (subset), kiểm tra tập cha (superset)
+a = {2, 4, 6, 8, 10, 2}
+b = {2, 4, 6}
+print(b.issubset(a))    # True 
+print(a.issuperset(b))  # True
+
+
+# Phép hợp 2 tập hợp - union
+a = {2, 4, 6, 8, 10, 2}
+b = {2, 4, 6}
+c = a | b   # union
+print(c)    # {2, 4, 6, 8, 10}
+
+
+# Phép giao 2 tập hợp - intersection
+a = {2, 4, 6, 8, 10, 2}
+b = {2, 4, 6}
+c = a & b   # intersection
+print(c)    # {2, 4, 6}
+
+
+# Phép hiệu - difference
+a = {2, 4, 6, 8, 10, 2}
+b = {2, 4, 6}
+c = a - b   # difference
+print(c)    # {8, 10}
+
+
+# Phép đối xứng - symetric difference
+A^B = (A-B) | (B-A)   hoặc  A^B = (A|B) - (A&B)
+a = {2, 4, 6, 8, 10, 2}
+b = {2, 4, 6}
+c = a ^ b   # symetric difference
+print(c)    # {8, 10}
+
+
 # 
+ 
