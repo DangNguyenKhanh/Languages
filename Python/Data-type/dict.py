@@ -117,3 +117,18 @@ d.clear()
 print(d)    # {}
 
 
+# Tạo từ điển đếm số lượng từ xuất hiện trong mail
+s = """Hi, there
+My name's Tony
+nice to meet you"""
+a = s.split()
+print(a)    # ['Hi,', 'there', 'My', "name's", 'Tony', 'nice', 'to', 'meet', 'you']
+dic = {}
+for word in a:
+    dic[word] = dic.get(word, 0) + 1
+for key in dic:
+    print(key, dic[key])
+
+    
+#    
+
