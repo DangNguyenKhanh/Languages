@@ -1,3 +1,7 @@
+# Đặt tiêu đề cho window
+t.title("electus")
+
+
 # Xóa màn hình, quay về vị trí mặc định
 t.reset()
 
@@ -54,4 +58,55 @@ t.circle(100, 360)
 t.end_fill()
 
 
-# 
+# Game click trên màn hình rùi con trỏ sẽ chạy tới
+def print_coord(x, y):
+    t.goto(x, y)
+    print(x, y)
+
+t.onscreenclick(print_coord)
+t.mainloop()
+
+
+# Khi nháy chuột lên con rùa, con rùa đổi hướng
+def print_coord(x, y):
+    t.goto(x, y)
+    print(x, y)
+
+def turn(x, y):
+    t.left(90)
+
+t.onclick(turn)
+t.onscreenclick(print_coord)
+t.mainloop()
+
+
+# Kết thúc sự kiện
+t.onclick(None)
+t.onscreenclick(None)
+
+
+# Tốc độ con trỏ
+t.speed(1)  rất chậm
+t.speed(3)  chậm  - mặc định của rùa
+t.speed(5)  trung bình
+t.speed(10) nhanh
+t.speed(20) >10 rất nhanh
+
+
+# Vẽ đường thẳng dấu đi con rùa
+t.ht()          # hide turtle
+t.forward(100)  # draw a line without the turtle's shape being visible
+t.mainloop()
+
+
+# Tắt chế độ hoạt hình bằng tracer
+t.ht()
+t.tracer(0, 0)  # Không có hoạt hình, giúp in ra liền
+for alpha in range(0, 360, 15):
+    t.seth(alpha)
+    t.goto(0, 0)
+    t.circle(100, steps=5)
+t.update()
+t.mainloop()
+
+
