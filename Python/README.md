@@ -10,3 +10,7 @@
 > version trong pycharm:
 - import sys
 - print(sys.version)  # 3.10.8
+
+> Check python version in terminal
+- python --version or python -V
+
