@@ -1,4 +1,4 @@
-Cài đặt PyQt5 
+> Cài đặt PyQt5 
 
 pip install PyQt5
 
