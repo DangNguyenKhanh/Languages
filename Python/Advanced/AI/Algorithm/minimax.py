@@ -63,7 +63,7 @@ def get_winner(board):
             if board[i][j] == EMPTY:
                 return CONT
     return TIE
-1
+
 def evaluate(board):
     """Evaluates the score of a given board state."""
     winner = get_winner(board)
