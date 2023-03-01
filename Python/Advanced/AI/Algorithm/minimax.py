@@ -57,12 +57,12 @@ def get_winner(board):
         return board[0][0]
     if board[0][2] == board[1][1] == board[2][0] != EMPTY:
         return board[0][2]
-    # Check for a tie
+    # Check continue 
     for i in range(ROWS):
         for j in range(COLS):
             if board[i][j] == EMPTY:
                 return CONT
-    return TIE
+    return TIE  # no one win
 
 def evaluate(board):
     """Evaluates the score of a given board state."""
